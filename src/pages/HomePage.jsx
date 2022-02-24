@@ -11,7 +11,6 @@ import {
 } from '../store/countries/countries-selectors'
 import { loadCountries } from '../store/countries/countries-actions'
 import { selectControls } from '../store/controls/controls-selectors'
-import { selectSearch } from '../store/controls/controls-selectors'
 
 export const HomePage = () => {
   const navigate = useNavigate()
