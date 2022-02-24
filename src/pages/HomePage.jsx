@@ -6,17 +6,21 @@ import { List } from '../components/List'
 import { Card } from '../components/Card'
 import { Controls } from '../components/Controls'
 import {
-  selectAllCountries,
-  selectAllCountriesInfo
+  selectCountriesInfo,
+  selectVisibleCountries
 } from '../store/countries/countries-selectors'
 import { loadCountries } from '../store/countries/countries-actions'
+import { selectSearch } from '../store/controls/controls-selectors'
 
 export const HomePage = () => {
   const navigate = useNavigate()
 
   const dispatch = useDispatch()
-  const countries = useSelector(selectAllCountries)
-  const { status, error, qty } = useSelector(selectAllCountriesInfo)
+  const search = useSelector(selectSearch)
+  const countries = useSelector(state =>
+    selectVisibleCountries(state, { search })
+  )
+  const { status, error, qty } = useSelector(selectCountriesInfo)
 
   useEffect(() => {
     if (!qty) {
