@@ -10,9 +10,10 @@
 * Styled  components
 
 ----------------------------------------
-## Опубликованная версия проекта (https://countries-react-redux-app.vercel.app/)
 
 ## Проект "Флаги стран"
+
+##№ Опубликованная версия проекта (https://countries-react-redux-app.vercel.app/)
 
 * Получает данные с АПИ (https://restcountries.com/v2/)
 * Отрисовывает полученные данные
