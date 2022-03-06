@@ -10,6 +10,7 @@
 * Styled  components
 
 ----------------------------------------
+## Опубликованная версия проекта (https://countries-react-redux-app.vercel.app/)
 
 ## Проект "Флаги стран"
 
