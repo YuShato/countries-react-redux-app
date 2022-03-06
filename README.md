@@ -1,6 +1,6 @@
-# Frontend Mentor - REST Countries API with color theme switcher solution
+## Countries Api project
 
-## Deploy version [https://countries-react-redux-app.vercel.app/](https://countries-react-redux-app.vercel.app/).
+### Deploy version [https://countries-react-redux-app.vercel.app/](https://countries-react-redux-app.vercel.app/).
 
 ### Technologies:
 
@@ -8,3 +8,19 @@
 * Axios
 * Redux (Redux Toolkit, Redux Thunk)
 * Styled  components
+
+----------------------------------------
+
+## Проект "Флаги стран"
+
+* Получает данные с АПИ (https://restcountries.com/v2/)
+* Отрисовывает полученные данные
+* Есть фильтры по названию страны, региону
+* 2 темы - светлая и темная
+
+Технологии:
+* React
+* Axios
+* Redux (Redux Toolkit, Redux Thunk)
+* Styled Components
+
